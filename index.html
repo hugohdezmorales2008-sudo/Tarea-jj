@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación con divs</title>
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos_maquetacion (2).css">
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-chubby/css/uicons-solid-chubby.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- COLOCA TU LOGO AQUÍ -->
+                <a href="index.html">
+                    <img src="img/logo.jpg"  alt="Coloca tu logo aquí">
+                </a>
+            </div>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fi fi-rr-home"></i>Inicio</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#"><i class="fi fi-sr-settings"></i></i>Servicios ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#"><i class="fi fi-rs-computer"></i>Diseño Digital</a></li>
+                            <li><a href="#"><i class="fi fi-rs-pencil"></i>Páginas Web</a></li>
+                            <li><a href="#"><i class="fi fi-sc-tools"></i>Mantenimiento y redes de cómputo</a></li>
+                        </ul>
+                    </li>
+                   
+
+                    <li><a href="#"><i class="fi fi-sr-workflow-setting-alt"></i>Proyectos</a></li>
+                    <li><a href="#"><i class="fi fi-sr-headset"></i>Contacto</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding: 100px 0;">
+        <h1 style="font-size: 3rem; margin-bottom: 20px;">Noticia de Monos y mas</h1>
+        <p style="font-size: 1.2rem; max-width: 600px;">Esta pagina esta hecha exlusivamente para monos, asi que si te intereza los monos entonces esto es para ti .</p>
+        <section class="seccion-info">
+            
+            <!-- FILA DE 2 CUADROS (Noticias Destacadas) -->
+            <h2 class="titulo-seccion">Noticias Recientes</h2>
+            <div class="contenedor-dos">
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/monosol.jpg" alt=""></div>
+                    <h3>Venta de monos</h3>
+                    <p>Lleguenle a la plaza de villahermosatabasco para tener un mono con su lisencia para evitar que les caigan los policias.</p>
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/Monomamao.jpg" alt=""></div>
+                    <h3>Mono Gym abre sus puertas</h3>
+                    <p>Las puertas de Mono Gym abre sus puertas esta semana ¿que esperas para inscribirte?.</p>
+                    
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+            </div>
+
+            <!-- FILA DE 3 CUADROS (Eventos o Info Rápida) -->
+            <h2 class="titulo-seccion">Próximos Eventos</h2>
+            <div class="contenedor-tres">
+    <!-- Cuadro con Imagen -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/Monotriste.jpg" alt="">
+        </div>
+        <h4>Mono triste</h4>
+        <p>15 de Mayo - 10:00 AM</p>
+    </div>
+
+    <!-- Cuadro con Video -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <video controls>
+                <source src="img/video.mp4" type="video/mp4"
+             
+            </video>
+        </div>
+        <h4>Mono se topa con algo horroroso</h4>
+        <p>20 de Mayo - 04:00 PM</p>
+    </div>
+
+    <!-- Cuadro con Info Rápida (Solo texto si quieres) -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/Monoconperiodico.jpg" alt="Evento">
+        </div>
+        <h4>Reunión Mensual</h4>
+        <p>30 de Mayo - 09:00 AM</p>
+    </div>
+</div>
+</section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>📍 Av. de los Emprendedores 404</p>
+                    <p>📞 +52 993 123 4567</p>
+                    <p>✉️ monoserios@.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Ubicación</h4>
+                    <p>Villahermosa, Tabasco</p>
+                    <p>México, CP 86000</p>
+                    <a href="#">Ver en Google Maps</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Aviso de Privacidad</a></li>
+                        <li><a href="#">Soporte al Cliente</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Hugo Hernandez Morales. 3-E. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
